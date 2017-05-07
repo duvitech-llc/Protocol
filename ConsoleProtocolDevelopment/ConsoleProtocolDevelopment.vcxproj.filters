@@ -35,7 +35,7 @@
     <ClCompile Include="ConsoleProtocolDevelopment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stm32_protocol.c">
+    <ClCompile Include="stm_protocol.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

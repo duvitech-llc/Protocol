@@ -46,9 +46,9 @@ enum enumErrorCodes {
 
 struct stm_transfer_packet {
 	uint8_t 	start_byte;
-	uint8_t 	pad[3];
-	uint16_t 	data_len;
+	uint8_t 	reserved[3];
 	uint16_t 	data_crc;
+	uint16_t 	data_len;
 	uint8_t* 	pData;
 };
 
@@ -63,7 +63,7 @@ struct stm_error_packet {
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions --------------------------------------------------------*/
 
-void stm_packet_details(struct stm_transfer_packet* sendFrame);
-bool send_stm_packet(struct stm_transfer_packet* sendFrame);
+void stm_packet_details(struct stm_transfer_packet sendFrame);
+bool send_stm_packet(struct stm_transfer_packet sendFrame);
 
 #endif /* STM_SERIAL_COMMAND_PROC_H_ */
