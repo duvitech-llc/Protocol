@@ -8,6 +8,7 @@
 ******************************************************************************
 * @attention
 *
+* <h2><center>&copy; COPYRIGHT 2017 Duvitech </center></h2>
 *
 * Unless required by applicable law or agreed to in writing, software
 * distributed under the License is distributed on an "AS IS" BASIS,
